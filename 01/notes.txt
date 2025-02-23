@@ -25,3 +25,4 @@ js basics
 7. loops
 8. complex data types 
 9. functions 
+10. classes
