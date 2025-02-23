@@ -15,8 +15,8 @@ const allUsers = [
   },
 ];
 
-for (i of allUsers) {
-  if (i["gender"] == "male") {
-    console.log(allUsers[i]["firstName"]);
+for (const user of allUsers) {
+  if (user.gender === "male") {
+    console.log(user.firstName);
   }
 }
