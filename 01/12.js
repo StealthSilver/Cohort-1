@@ -1,7 +1,7 @@
 //callback
 
 function calculate(a, b, fnToCall) {
-  fnToCall(a, b);
+  return fnToCall(a, b);
 }
 
 function sum(a, b) {
@@ -20,4 +20,7 @@ function div(a, b) {
   return a / b;
 }
 
-calculate(5, 6, mul);
+result = calculate(5, 6, mul);
+console.log(result);
+//In this code, the callback function is mul
+//because it is passed as the third argument to the calculate function and then invoked within that function.
