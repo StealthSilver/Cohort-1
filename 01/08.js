@@ -8,3 +8,7 @@ person = {
 };
 
 console.log(person["name"]);
+
+console.log(
+  `Hello ${person["name"]} , your age is ${person["age"]} , your gender is male is ${person["isMale"]} , you have lived in ${person["city"]}`
+);
