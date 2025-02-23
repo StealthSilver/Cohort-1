@@ -1,0 +1,4 @@
+JAVASCRIPT FOUNDATIONS
+
+languages help the developers communicate with the machine
+the compilers convert the high level code into the binary code (0,1)
