@@ -4,4 +4,8 @@ function sum(a, b) {
   return a + b;
 }
 
-console.log(sum(9, 4));
+function pretty(s) {
+  console.log("the sum is :", s);
+}
+
+pretty(sum(3, 4));
