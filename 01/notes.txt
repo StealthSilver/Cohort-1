@@ -2,3 +2,13 @@ JAVASCRIPT FOUNDATIONS
 
 languages help the developers communicate with the machine
 the compilers convert the high level code into the binary code (0,1)
+
+Features of Javascript
+
+1.Interpreted and Executed in Real Time (JIT : just in time compiled)
+2.Event-Driven and Asynchronous
+3.Prototype-Based Inheritance
+4.First-Class Functions
+5.Dynamic Typing
+6.Standardized with ECMAScript
+
