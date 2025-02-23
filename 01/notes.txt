@@ -14,3 +14,14 @@ Features of Javascript
 7. JS is single threaded (not good for scaleable systems)
 in go lang -> sub-routiunes implement multithreading
 
+js basics 
+
+1. output
+2. input
+3. variables
+4. data types
+5. operators
+6. conditionals
+7. loops
+8. complex data types 
+9. functions 
