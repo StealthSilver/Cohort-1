@@ -3,3 +3,13 @@ Starting tools :
 1. HTML
 2. CSS 
 3. JS
+
+FRAMEWORKS :
+
+1. REACT
+2. ANGULAR
+3. VUE
+4. SVELTE
+5. STENCIL 
+6. LIT
+7. ALPINE
