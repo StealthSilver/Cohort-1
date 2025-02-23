@@ -11,4 +11,4 @@ Features of Javascript
 4.First-Class Functions
 5.Dynamic Typing
 6.Standardized with ECMAScript
-
+7.JS is single threaded
