@@ -14,4 +14,4 @@ function prettyPassive(s) {
 }
 
 sum(2, 3, prettyPassive);
-// pretty passive is hte callback function as it si passed as the argument to the sum function
+// pretty passive is the callback function as it is passed as the argument to the sum function
