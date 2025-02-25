@@ -14,7 +14,7 @@ Features of Javascript
 7. JS is single threaded (not good for scaleable systems)
 in go lang -> sub-routiunes implement multithreading
 
-js basics 
+JS BASICS
 
 1. output
 2. input
@@ -26,3 +26,14 @@ js basics
 8. complex data types 
 9. functions 
 10. classes
+
+JS FUNCTIONS 
+
+1. String 
+2. Number 
+3. Array 
+4. Class 
+5. Date 
+6. JSON (java script object notation) 
+7. Math 
+8. Objects 
