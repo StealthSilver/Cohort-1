@@ -42,4 +42,4 @@ functions are required so that we dont violate the DRY(Don't repeat yourself) pr
 
 CALLBACK FUNCTIONS 
 
-calling funcitions as the argument of another function
+calling functions as the argument of another function
