@@ -48,6 +48,7 @@ function replaceString(str, target, replacement) {
 replaceString("Hello World", "World", "JavaScript");
 
 // split
+// this will return an array
 function splitString(str, separator) {
   console.log("Original String:", str);
   console.log("After split:", str.split(separator));
