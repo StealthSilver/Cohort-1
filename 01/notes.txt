@@ -37,3 +37,5 @@ JS FUNCTIONS
 6. JSON (java script object notation) 
 7. Math 
 8. Objects 
+
+functions are required so that we dont violate the DRY(Don't repeat yourself) principle
