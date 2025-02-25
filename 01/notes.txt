@@ -39,3 +39,7 @@ JS FUNCTIONS
 8. Objects 
 
 functions are required so that we dont violate the DRY(Don't repeat yourself) principle
+
+CALLBACK FUNCTIONS 
+
+calling funcitions as the argument of another function
