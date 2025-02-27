@@ -67,4 +67,4 @@ PROMISES
 
 callbacks lead to callback hell to resolve them promises are introduced 
 
-the promise class return a new promise that can be rejected or resolved
+the promise class return a new promise that can be rejected or resolved, until the promise is resolved it reamins pending
