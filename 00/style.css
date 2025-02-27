@@ -76,3 +76,8 @@
   font-size: 19.22px;
   margin-top: 42px;
 }
+
+.button button:hover {
+  background-color: black;
+  cursor: pointer;
+}
