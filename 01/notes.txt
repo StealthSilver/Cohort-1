@@ -65,4 +65,6 @@ the async callbacks are only called when the js thread gets free
 
 PROMISES
 
-callbacks lead to callback hell to resolve them promises are introduced
+callbacks lead to callback hell to resolve them promises are introduced 
+
+the promise class return a new promise that can be rejected or resolved
