@@ -65,6 +65,7 @@ the async callbacks are only called when the js thread gets free
 
 PROMISES
 
+promise is a class that makes the callbacks and async functions more readable
 callbacks lead to callback hell to resolve them promises are introduced 
 
 the promise class return a new promise that can be rejected or resolved, until the promise is resolved it remains pending
