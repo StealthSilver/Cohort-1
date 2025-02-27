@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 
+// this will run at the last
 fs.readFile("../notes.txt", "utf-8", function (err, data) {
   console.log(data);
 });
@@ -11,7 +12,7 @@ console.log("hello");
 
 // time taking operation -> busy waiting
 let a = 0;
-for (let i = 0; i < 1000000; i++) {
+for (let i = 0; i < 1000000000; i++) {
   a++;
 }
 
