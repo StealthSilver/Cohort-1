@@ -44,4 +44,7 @@ CALLBACK FUNCTIONS
 
 calling functions as the argument of another function 
 
+SYNC vs ASYNC FUNCTIONS
 
+SYNC : together , one after the other
+ASYNC : multiple things context switching with each other
