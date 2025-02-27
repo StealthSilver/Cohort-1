@@ -9,7 +9,7 @@ function findSum(n) {
 }
 
 function sumTill100() {
-  return findSum(100);
+  console.log(findSum(100));
 }
 
 // calling the asynchronous function
