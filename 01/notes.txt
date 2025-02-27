@@ -69,3 +69,5 @@ callbacks lead to callback hell to resolve them promises are introduced
 
 the promise class return a new promise that can be rejected or resolved, until the promise is resolved it remains pending
 the promise is returned immidiately and the data comes later asynchronously
+
+the promise has three states resolve, pending, rejected 
