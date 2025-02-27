@@ -48,3 +48,8 @@ SYNC vs ASYNC FUNCTIONS
 
 SYNC : together , one after the other
 ASYNC : multiple things context switching with each other
+
+examples of async functions
+1. set timeout
+2. fs.readFile
+3. fetch
