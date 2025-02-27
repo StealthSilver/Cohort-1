@@ -53,3 +53,11 @@ examples of async functions
 1. set timeout
 2. fs.readFile
 3. fetch
+
+JS async architecture (latentfilp.com)
+
+call stack : it is the main stack where all the functions are called
+
+web apis : the async function clocks are deligated here
+
+callback queue : all the resolved async functions are queued here and then called by the callback stack one by one
