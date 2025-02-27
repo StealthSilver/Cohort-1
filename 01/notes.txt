@@ -72,3 +72,7 @@ the promise class return a new promise that can be rejected or resolved, until t
 the promise is returned immidiately and the data comes later asynchronously
 
 the promise has three states resolve, pending, rejected 
+
+ASYNC AWAIT 
+
+if a functions needs to return a promise, use the await keyword in front of it
