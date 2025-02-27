@@ -65,3 +65,4 @@ the async callbacks are only called when the js thread gets free
 
 PROMISES
 
+callbacks lead to callback hell to resolve them promises are introduced
