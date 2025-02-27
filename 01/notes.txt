@@ -11,7 +11,7 @@ Features of Javascript
 4. First-Class Functions
 5. Dynamic Typing
 6. Standardized with ECMAScript
-7. JS is single threaded (not good for scaleable systems)
+7. single threaded (not good for scaleable systems)
 in go lang -> sub-routiunes implement multithreading
 
 JS BASICS

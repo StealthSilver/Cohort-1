@@ -1,4 +1,5 @@
 // let , var and const
+// var is not used in the modern syntax of js
 
 let a = 5;
 const b = 9;
