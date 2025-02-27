@@ -62,3 +62,6 @@ web apis : the async function clocks are deligated here
 
 callback queue : all the resolved async functions are queued here and then called by the callback stack one by one
 the async callbacks are only called when the js thread gets free
+
+PROMISES
+
