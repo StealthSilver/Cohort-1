@@ -1,0 +1,40 @@
+GIT 
+this is the version control system
+
+Centralised VCS -> Subversion, Team foundtion server 
+they are good for backups
+
+Distributed VCS -> Github , Gitlab , Bitbucket
+they are good for collaboration
+
+GITHUB -> a web based hosting service
+
+flies are addressed by their SHA1 hashes
+
+GIT COMMANDS
+
+git clone -> clone a repository
+git add -> adding the changes to the staging area
+git commit -> commiting the changes on the active branch
+git push -> pushing the changes on github
+git pull -> pulling the latest changes
+git status -> checking the status of files
+git branch -> checking the current branch 
+git checkout -b -> creating a new branch
+git checkout [branch_name] -> changing between branches
+git diff -> comparing changes across files 
+git push -u [name of the branch] -> setting the upsteream for the changes
+git merge -> combinig one branch with the main branch
+git log --merge -> produce the list of commits that are causing the conflict
+git reset --mixed -> used ot undo changes to the working directory and the staging area
+git merge --abort -> exiting hte merging process and returning back to the state before merging
+git reset -> used to reset the conflicted files to their original state
+git branch -d [branch name] -> to delete a branch
+
+Pull request -> request to merge the changes
+add the details of the changes in the PR
+
+in the production enviornment generaly there are conflicts while merging, you have to resolve the conflits before merging
+a good practice is to delete the branch we no longer need
+
+you can document the required changes in the issue tab in github
