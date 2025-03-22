@@ -1,0 +1,47 @@
+Bash Commands
+
+Basic Terminal Operations
+
+- Clear the Terminal: Use Command + K (on macOS) to clear the terminal screen.
+
+- Print Working Directory: pwd → Displays the current directory path.
+
+- Change Directory: cd → Navigate to another directory.
+
+- Go Two Folders Back: cd ../.. → Moves up two levels in the directory tree.
+
+- List Items in Directory: ls → Lists all files and folders in the current directory.
+
+File and Folder Operations
+
+- Make a New Folder: mkdir [folder-name]
+
+- Create New Files: touch [file-name]
+
+- Print File Contents: cat [file-name]
+
+Using vi (Vim Command-Line Editor)
+
+- Open a file: vi [file-name]
+
+- Start writing: Press i to enter insert mode.
+
+- Save and exit: Press ESC, then type :wq! and hit Enter.
+
+- Exit without saving: Press ESC, then type :q! and hit Enter.
+
+File Management
+
+- Move Files: mv [source] [destination] → Moves files or folders.
+
+- Copy Files: cp [source] [destination]
+
+- Copy Folders: cp -r [source-folder] [destination-folder] → The -r flag enables recursive copying.
+
+Node.js and npm
+
+Node Version Manager: nvm → Manages Node.js versions (install, use, or switch versions).
+
+Node.js Runtime Environment: node → Opens the Node.js runtime environment where JavaScript can be executed.
+
+Node Package Manager: npm → Used to install and manage Node.js packages.

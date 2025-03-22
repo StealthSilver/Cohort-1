@@ -11,7 +11,7 @@ async function readFileAsync(filePath, encoding = "utf-8") {
   }
 }
 
-// Usage example
+
 (async () => {
   try {
     const data = await readFileAsync("../notes.txt");

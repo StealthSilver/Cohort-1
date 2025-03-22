@@ -1,0 +1,75 @@
+ADVANCED BASH COMMANDS 
+
+pwd -> present working directory 
+
+ls -> list files 
+ls -l -> for more info about the files
+ls -R -> check the contents of the files 
+ls -t -> check the time modified 
+
+we can combine these commands (ls -lt)
+
+ls -la -> to check the hidden files
+ls -lRa -> all the hidden files within the files
+ls -lr -> gives the files in the reverse oder of modification
+ls -s -> files by their size 
+ls -lR | grep .json -> selectively giving the .json files in the directory and sub directory
+ls Zoo* -> to get the files starting with zoo 
+
+cat -> to view the file 
+cat > newFile.txt [random text] -> adding (random text) to newFile.txt 
+mkdir test && cd test -> making and entering at the same time
+
+
+mkdir -p frontend/scripts    |
+mkdir -p frontend/img        |
+mkdir -p frontend/assets     | ->recursively creating folders with different name
+mkdir -p frontend/scss       |
+
+mv script.js runtime_script.js  -> rename the script.js file 
+mv script.js app/frontend/scripts -> moving the file
+mv script.js app/frontend/scripts/scripts.js -> moving the file and renaming
+
+cp -> copy files
+cp -r scripts/tests -> copying folder to another folder
+
+rm a.txt -> delete a file 
+rm -r frontend -> delete a folder 
+
+chmod ugo-rwx -> changing the permissions of files (u- user, g - group , o - other | r - read , w - write , x - execute)
+chmod -R ugo-rwx -> changing the permissions of folders
+chmod u+wx a.txt -> now the user can write and execute the a.txt
+chmod u-x b.txt -> now the user cannot execute b.txt
+
+
+echo "hello" -> displays the message on terminal
+echo $PATH -> displays the path variable
+
+
+head a.txt -> first 5 rows of the file
+tail a.txt -> last 5 rows of the file
+head -20 a.txt -> first 20 rows of the file
+command1 | command2 -> the execution of command 1 flows to command 2
+
+wc b.txt -> gives the number of lines, number of words, and number of characters in order
+
+grep "one" b.txt -> all places where one was used in the file
+grep -c "one" b.txt -> only gives the number of lines where one was there
+grep -h "one" b.txt -> only gives the phases where one was there
+grep -hir "one" b.txt -> gives the occorence of one in the complete folder 
+grep -hiro "one" b.txt -> gives the occorence of one in the complete folder where one comes seperately
+
+
+history -> gives the history of all the commands ran 
+
+
+we can create bash files will multiple lines of scripts 
+newscript.sh 
+
+grep "ERROR" log.txt -> grab all the error messages from log.txt 
+grep -v "ERROR" log.txt -> grab all the messages apart from the error message from log.txt 
+grep -B 5 "ERROR" log.txt -> grab 5 lines before the first error message
+grep -A 5 "ERROR" log.txt -> grab 5 lines after the first error message
+grep -C 5 "ERROR" log.txt -> grab 5 lines after and before the first error message
+
+sed and afk are other commands which come in handy

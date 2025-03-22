@@ -14,7 +14,7 @@ function readFileAsync(filePath, encoding = "utf-8") {
   });
 }
 
-// Usage example
+
 readFileAsync("../notes.txt")
   .then((data) => console.log(data))
   .catch((err) => console.error(err));
