@@ -4,6 +4,8 @@ Starting tools :
 2. CSS 
 3. JS
 
+until 2010 the websites were developed using HTML, CSS and JavaScript but then JS frameworks made the process smoother
+
 FRAMEWORKS :
 
 1. REACT
