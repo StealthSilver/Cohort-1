@@ -44,5 +44,39 @@
     <div class="btn">
       <button>Sign up for free</button>
     </div>
+
+    <div class="calculator">
+      <h2>Simple Interest Calculator</h2>
+      <input
+        type="number"
+        id="principal"
+        placeholder="Principal Amount"
+      /><br />
+      <input type="number" id="time" placeholder="Time (in years)" /><br />
+      <input type="number" id="rate" placeholder="Interest Rate (%)" /><br />
+      <button onclick="calculateInterest()">Calculate</button>
+      <div class="result" id="result"></div>
+    </div>
+
+    <script>
+      function calculateInterest() {
+        const principal = parseFloat(
+          document.getElementById("principal").value
+        );
+        const time = parseFloat(document.getElementById("time").value);
+        const rate = parseFloat(document.getElementById("rate").value);
+
+        if (isNaN(principal) || isNaN(time) || isNaN(rate)) {
+          document.getElementById("result").innerText =
+            "Please enter valid numbers.";
+          return;
+        }
+
+        const interest = (principal * time * rate) / 100;
+        document.getElementById(
+          "result"
+        ).innerText = `Simple Interest: ₹${interest.toFixed(2)}`;
+      }
+    </script>
   </body>
 </html>
